@@ -1,4 +1,4 @@
-import lombok.*;
+
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
@@ -8,13 +8,6 @@ import org.springframework.core.io.Resource;
 import springDemo.Car;
 import springDemo.MyBeanPostProcessor;
 import springDemo.MyInstantiationAwareBeanPostProcessor;
-
-import java.io.IOException;
-import java.lang.reflect.Field;
-import java.util.*;
-import java.util.function.Function;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 public class MainTest {
     public static void main(String[] args) {
