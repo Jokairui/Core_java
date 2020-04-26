@@ -1,6 +1,11 @@
-let a = new Date('2018-12-27 11:11:10');
-let b = new Date('2018-12-27 11:11:11');
 
-console.log(a.getTime())
-console.log(a.getTime() < b.getTime())
-console.log(a.getDay() <= b.getDay())
+
+function myFunction(x) {
+    if (typeof x === 'function') {
+        console.log('I am in ')
+        x(1)
+    }
+    console.log('the function is triggered')
+}
+
+myFunction(1)
